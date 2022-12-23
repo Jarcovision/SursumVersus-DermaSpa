@@ -133,6 +133,7 @@ rgb(255, 119, 221)
     margin-bottom: 2vh;
     margin-right: 21px;
     margin-left: 21px;
+    
 
 }
 .boton1{
@@ -156,11 +157,15 @@ rgb(255, 119, 221)
     border-radius: 5px;
     height: 40px;
     background-color: rgb(197,113, 237);
+    text-decoration: none;
+
 
 }
 .boton2:hover{
     background-color: rgb(140, 48,255);
     box-shadow: 3px 0px 30px rgb(224, 155, 207);
+    color: white;
+    text-decoration: none;
 }
 .contenedor{
     margin-top: 9vh;

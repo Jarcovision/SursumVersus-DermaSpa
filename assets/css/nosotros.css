@@ -79,7 +79,7 @@ a.dropdown-item:hover {
 .card3 {
     width: 22rem; 
     border-style: none; 
-    background-color: #D6B1FF;
+    background-color: #FFB1E6;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
@@ -109,7 +109,7 @@ a.dropdown-item:hover {
 .txt2 {
     font-weight: 500;
     font-size: 1rem;
-    color: #FFFFFF;
+    color: blueviolet;
 }
 /* Fin estilos TARJETAS de contenidos */
 
