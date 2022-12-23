@@ -42,7 +42,7 @@
 // }
 
 
-const usuario = () => {
+/*const usuario = () => {
   $('#boton').on('click', function() {
     const direccion = { 
         ciudad: $('#ciudad'),
@@ -50,19 +50,19 @@ const usuario = () => {
         colonia: $('#colonia'),
         calle: $('#calle'),
         numero:$('#numero') 
-    }  
+    }    */
   
   $.ajax({
     url: 'http://localhost:8080/direccion',
     contentType: 'application/json',
     type: 'POST',
-    data: JSON.stringify(direccion),
+    data: JSON.stringify(form),
     dataType: 'json',
     success: function (form) {
       console.log("Dirección registrada");
     }
   })
-  })  
-  }
+/*  })  
+  } 
   
-  usuario();
+  usuario();  */
