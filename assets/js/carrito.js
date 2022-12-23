@@ -40,3 +40,29 @@
 //     let validationDefault01 = document.getElementById("validationDefault01").value;
 //     alert ("Acabas de agregar al carrito  : " + validationDefault01 + " piezas")
 // }
+
+
+const usuario = () => {
+  $('#boton').on('click', function() {
+    const direccion = { 
+        ciudad: $('#ciudad'),
+        cp: $('#cp'),
+        colonia: $('#colonia'),
+        calle: $('#calle'),
+        numero:$('#numero') 
+    }  
+  
+  $.ajax({
+    url: 'http://localhost:8080/direccion',
+    contentType: 'application/json',
+    type: 'POST',
+    data: JSON.stringify(direccion),
+    dataType: 'json',
+    success: function (form) {
+      console.log("Dirección registrada");
+    }
+  })
+  })  
+  }
+  
+  usuario();

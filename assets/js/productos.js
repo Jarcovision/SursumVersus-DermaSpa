@@ -136,13 +136,13 @@ const stockProductos = [
         modalBody.innerHTML += `
         <div class="modal-contenedor">
           <div>
-          <img class="img-fluid img-carrito" src="${img}"/>
-          </div>
-          <div>
-          <p>Producto: ${nombre}</p>
-        <p>Precio: ${precio}</p>
-        <p>Cantidad :${cantidad}</p>
-        <button class="btn btn-color-carrito"  onclick="eliminarProducto(${id})">Eliminar producto</button>
+            <img class="img-fluid img-carrito" src="${img}"/>
+            </div>
+            <div>
+            <p>Producto: ${nombre}</p>
+            <p>Precio: ${precio}</p>
+            <p>Cantidad :${cantidad}</p>
+            <button class="btn btn-color-carrito"  onclick="eliminarProducto(${id})">Eliminar producto</button>
           </div>
         </div>
         
@@ -186,5 +186,7 @@ const stockProductos = [
       }
     });
   }
+
+
 
   
