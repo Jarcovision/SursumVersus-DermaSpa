@@ -105,3 +105,31 @@ formulario.addEventListener('submit', (e) => {
 		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
 	} 
 });
+
+const save = () => {
+    $('#boton').on('click', function() {
+    const registroUsuario = {
+      nombreUsuario: $('#nombre').val(),
+      apellidoUsuario: $('#apellido').val(),
+      email: $('#email').val(),
+      password: $('#password').val()
+      }  
+    
+    $.ajax({
+      url: 'http://localhost:8080/usuario',
+      contentType: 'application/json',
+      type: 'POST',
+      data: JSON.stringify(registroUsuario),
+      dataType: 'json',
+      success: function (datos) {
+        console.log("Usuario registrado");
+      }
+    })
+    })  
+    }
+    
+    save();
+
+
+
+
