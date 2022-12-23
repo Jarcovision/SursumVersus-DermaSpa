@@ -32,26 +32,12 @@
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.2.0.202209071019"/>
 		<item value="org.sonatype.m2e.egit.feature:0.17.0.202209271423"/>
 	</list>
-	<section name="SmartImportWizard">
-		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
-		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
-		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
-		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
-		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-			<item value="/Users/jarcovision/Desktop/Copia/Basededatos"/>
-			<item value="/Users/jarcovision/Desktop/basededatos2/dermaSpa"/>
-			<item value="/Users/jarcovision/Desktop/basededatos2"/>
-			<item value="/Users/jarcovision/Desktop/Sursum-versus/basededatos2/dermaSpa"/>
-		</list>
-	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="247"/>
-		<item key="DIALOG_Y_ORIGIN" value="124"/>
+		<item key="DIALOG_X_ORIGIN" value="160"/>
+		<item key="DIALOG_Y_ORIGIN" value="121"/>
 	</section>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
 		</list>
-	</section>
-	<section name="NewWizardAction">
 	</section>
 </section>
