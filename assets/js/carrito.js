@@ -41,8 +41,7 @@
 //     alert ("Acabas de agregar al carrito  : " + validationDefault01 + " piezas")
 // }
 
-
-/*const usuario = () => {
+const usuario = () => {
   $('#boton').on('click', function() {
     const direccion = { 
         ciudad: $('#ciudad'),
@@ -50,7 +49,7 @@
         colonia: $('#colonia'),
         calle: $('#calle'),
         numero:$('#numero') 
-    }    */
+    }    
   
   $.ajax({
     url: 'http://localhost:8080/direccion',
@@ -62,7 +61,7 @@
       console.log("Dirección registrada");
     }
   })
-/*  })  
-  } 
-  
-  usuario();  */
+  })  
+}
+
+  usuario();  
