@@ -100,13 +100,12 @@ formulario.addEventListener('submit', (e) => {
 		document.querySelectorAll('.formulario__grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formulario__grupo-correcto');
 		});
-        //formulario.reset();
 	} else {
 		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
 	} 
 });
 
-const save = () => {
+const usuario = () => {
     $('#boton').on('click', function() {
     const registroUsuario = {
       nombreUsuario: $('#nombre').val(),
