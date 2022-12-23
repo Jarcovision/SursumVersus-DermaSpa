@@ -115,19 +115,19 @@ const usuario = () => {
       }  
     
     $.ajax({
-      url: 'http://localhost:8080/usuario',
+      url: 'http://localhost:7672/usuario',
       contentType: 'application/json',
       type: 'POST',
       data: JSON.stringify(registroUsuario),
       dataType: 'json',
-      success: function (datos) {
+      success: function (campos) {
         console.log("Usuario registrado");
       }
     })
     })  
     }
     
-    save();
+    usuario();
 
 
 
